@@ -18,7 +18,7 @@ const Note = mongoose.model("Note", {
 
 // GET route
 app.get("/", (req, res) => {
-  res.send("Hello from backend with MongoDB!");
+  res.send("Hello World");
 });
 
 // POST route برای ایجاد یادداشت
